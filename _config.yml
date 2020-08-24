@@ -1,5 +1,5 @@
 # Site settings
-title: Jekyll-Uno
+title: BV_bLOG
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: '/jekyll-uno'
@@ -9,10 +9,10 @@ baseurl: '/jekyll-uno'
 author:
   name: 'Valijanov Bahromjon'
   email: Valijanov1103@mail.ru
-  twitter_username: joshgerdes
+  twitter_username: ""
   facebook_username: baggio
   github_username:  baggio1103
-  linkedin_username:  joshgerdes
+  linkedin_username:  ""
 
 defaults:
   -
