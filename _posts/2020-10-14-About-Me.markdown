@@ -1,0 +1,32 @@
+---
+title:  "About Me"
+categories: 
+tags: 
+img: prof.jpg
+---
+
+![]({{site.baseurl}}/images/prof.jpg)
+
+Hey Guys!
+
+
+Welcome to my Programming Blog! I hope you will find it useful and interesting! In this post I would like to introduce myself and tell what the blog will be about!
+
+My name is Baggio. I am a third year computer science student at [Kazan Federal University, ICMIT][kfu].  To date I have been studying fundamental concepts in computer science mostly and now I desire to apply all my knowledge in real life. At the moment I am interested in Android and backend development (in the following posts I will shed light on what Android and backend development stand for:). Concerning my future aims I am going to learn some technologies as Databases, Spring, Spring Boot and Android Development. Most importantly, have challenged myself to learn Android Development in the coming months and develop my own application or game by the end of May 2021. 
+
+Furthermore, I know Java, Python and Javascript among programming languages, Java at a high level, Python and JavaScript a little, and I am learning Kotlin as well. All the source code and programs will be mainly in Java because I find it the easiest programming language with simple and easy-to-understand syntax. Learning Java is easy and interesting for computer science newbies as well. The blog will contain different posts that will cover various aspects, for example, Java syntax, variables and functions, classes and objects for beginners; Data structures and Algorithms for elementary; Databases, Spring, etc... for intermediate. There will be new posts on a weekly basis.
+
+To conclude, by leading this blog I want to showcase my skills and knowledge and share them with other enthusiasts! 
+
+
+
+
+``` ruby
+public static void main(String[] args){
+  System.out.println("Welcome to BV_Blog");
+}
+
+#Output: Welcome to BV_Blog.
+```
+
+[kfu]: https://kpfu.ru/
