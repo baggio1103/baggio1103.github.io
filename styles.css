@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #020617;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    color: yellow;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.profile-pic {
+    margin-right: 2rem;
+    flex-shrink: 0;
+}
+
+.profile-pic img {
+    border-radius: 10%;
+    width: 200px;
+    height: 150px;
+}
+
+.header-text {
+    max-width: 500px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header h2 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+section {
+    background: #020617;
+    color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+    width: calc(100% - 4rem); /* Ensure some margin on smaller screens */
+    border-radius: 15px; /* Add rounded corners */
+}
+
+section h2 {
+    border-bottom: 2px solid #111827;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.module {
+    border: 1px solid #111827;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.module-icon {
+    font-size: 2rem; /* Adjust the size as needed */
+    color: yellow; /* Adjust the color as needed */
+    display: block; /* Ensure the icon is on a new line */
+    margin-bottom: 0.5rem; /* Space between icon and title */
+}
+
+.modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.module h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.module ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+section h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+section h4 {
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    color: #6B7280;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #020617;
+    color: #fff;
+    margin-top: auto;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mini-gap {
+    margin-bottom: 2rem;
+}
