@@ -139,7 +139,7 @@ footer {
 }
 
 a {
-    color: #1e90ff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -149,4 +149,21 @@ a:hover {
 
 .mini-gap {
     margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        text-align: center; /* Center align text */
+    }
+
+    .profile-pic {
+        margin-right: 0;
+        margin-bottom: 1rem; /* Add space between image and text */
+    }
+
+    .header-text {
+        max-width: 100%;
+    }
 }
